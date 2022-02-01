@@ -1,0 +1,49 @@
+/* navegação */
+.logo {
+    padding: 0.5rem;
+    width: 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1rem;
+}
+
+nav form {
+    width: 40%;
+}
+
+.search input {
+    font-size: 1.6rem;
+    border: none;
+    border-bottom: 1px solid var(--light-black);
+}
+
+.search button {
+    border: none;
+    font-size: 2rem;
+    color: var(--light-black);
+}
+
+.search button:hover {
+    color: var(--blue);
+}
+
+nav>a {
+    padding: 1rem 3rem;
+    margin-right: 2rem;
+
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 1rem;
+
+    transition: .2s;
+}
+
+nav>a:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
