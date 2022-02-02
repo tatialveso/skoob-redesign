@@ -209,6 +209,7 @@ button a {
 /* footer */
 footer {
     background-color: var(--blue);
+    padding-top: 2rem;
 }
 
 .social-footer {
@@ -224,35 +225,47 @@ footer {
 .footer-intro>img {
     width: 8rem;
     margin: auto;
+    border-radius: 50%;
 }
 
 .footer-intro>p {
     text-align: center;
+    color: var(--white);
     font-size: 1.4rem;
     width: 90%;
-    margin: auto;
+    margin: 1rem auto;
 }
 
-.social-media {
+.social-media,
+.app-download {
     font-size: 4rem;
     margin: auto;
 }
 
 i {
-    color: var(--skoob-blue);
+    color: var(--white);
 }
 
-.social-media>a {
-    padding: .5rem;
+.app-download {
+    width: 50%;
+}
+
+.app-download h3 {
+    font-size: 1.5rem;
+    color: var(--white);
+    font-weight: 500;
+    text-align: center;
+}
+
+.app-download>article {
+    padding-left: 7rem;
 }
 
 .inner-footer {
     display: flex;
     justify-content: center;
 
-    
-    padding: 3rem;
-    margin-top: 1rem;
+    padding: 2rem 0;
 }
 
 .inner-footer a {
@@ -261,15 +274,4 @@ i {
 
     color: var(--white);
     margin: 0 2rem;
-}
-
-.app-download>p {
-    font-size: 1.4rem;
-    font-weight: 500;
-    text-align: center;
-}
-
-.app-download>article {
-    font-size: 4rem;
-    padding-left: 20rem;
 }
