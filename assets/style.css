@@ -23,10 +23,12 @@ nav form {
 .search button {
     border: none;
     font-size: 2rem;
+}
+.search i {
     color: var(--light-black);
 }
 
-.search button:hover {
+.search i:hover {
     color: var(--blue);
 }
 
