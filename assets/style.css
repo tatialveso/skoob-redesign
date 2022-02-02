@@ -1,14 +1,13 @@
 /* navegação */
 .logo {
-    padding: 0.5rem;
-    width: 10%;
+    width: 15%;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
 
-    padding: 1rem;
+    padding-top: 2rem;
 }
 
 nav form {
@@ -39,16 +38,179 @@ nav>a {
     text-decoration: none;
     font-weight: 500;
     border-radius: 1rem;
+    background-color: var(--skoob-blue);
+    color: var(--white);
 
     transition: .2s;
 }
 
-nav>a:hover {
+nav>a:hover,
+.text-display a:hover {
     background-color: var(--blue);
     color: var(--white);
 }
 
+/* header */
+.banner {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+/* main */
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--light-blue);
+    border-radius: 1rem;
+}
+
+h1,
+.highlight-books h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.sign-up button {
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid var(--light-black);
+    border-radius: 1rem;
+
+    background-color: var(--white);
+    font-size: 1.4rem;
+
+    width: 80%;
+}
+
+#facebook {
+    background-color: var(--facebook-blue);
+    border: 1px solid var(--facebook-blue);
+}
+
+#facebook a,
+#facebook i {
+    color: var(--white);
+}
+
+button a {
+    text-decoration: none;
+    color: var(--light-black);
+    font-weight: 500;
+}
+
+.sign-up p {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+
+.sign-up p>a {
+    text-decoration: none;
+    color: var(--skoob-blue);
+}
+
+.sign-up p>a:hover {
+    color: var(--blue);
+}
+
+.highlight-books {
+    background-color: var(--light-blue);
+    border-radius: 1rem;
+    margin-left: 5rem;
+    height: 100%;
+}
+
+.highlight-books>div {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 3rem;
+}
+
+.book {
+    display: flex;
+}
+
+.book img {
+    width: 10rem;
+}
+
+.book>div {
+    padding: 2rem;
+}
+
+.book-title {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    
+    margin: 0;
+}
+
+.author {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.to-buy {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+/* main: giveaway */
+.giveaway {
+    border: 1px solid var(--gray);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 5rem 0;
+}
+
+.book-display {
+    padding: 0;
+}
+
+.book-display img {
+    width: 15%;
+}
+
+.text-display {
+    text-align: center;
+    margin: auto;
+}
+
+.text-display h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.text-display p {
+    font-size: 1.4rem;
+    margin: .5rem 0 2rem 0;
+}
+
+.text-display a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    background-color: var(--skoob-blue);
+    padding: 1rem;
+    color: var(--white);
+    border-radius: 1rem;
+
+    transition: .2s;
+}
+
 /* footer */
+footer {
+    background-color: var(--blue);
+}
+
 .social-footer {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -88,7 +250,7 @@ i {
     display: flex;
     justify-content: center;
 
-    background-color: var(--blue);
+    
     padding: 3rem;
     margin-top: 1rem;
 }

@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="./assets/global.css">
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./assets/img/skoob-logo.png">
     <title>SKOOB | Livros, autores, histórias e amigos, todos conectados</title>
 </head>
 
 <body>
-    <nav>
+    <nav class="container">
         <img class="logo" src="./assets/img/skoob-header.png" alt="Skoob">
         <form class="d-flex search">
             <input class="form-control me-2" type="search" placeholder="Encontre o seu livro" aria-label="Search">
@@ -22,10 +23,70 @@
         </form>
         <a href="">Entrar</a>
     </nav>
-    <header>
 
+    <header>
+        <img class="banner" src="./assets/img/banner.png" alt="">
     </header>
-    <main></main>
+
+    <main class="container">
+        <div class="row">
+            <section class="col-4 sign-up">
+                <h1>Primeira vez no Skoob? Cadastre-se!</h1>
+                <button id="facebook">
+                    <i class="fab fa-facebook"></i>
+                    <a href="">Conecte-se com o Facebook</a>
+                </button>
+                <button>
+                    <a href="">Cadastrar com o e-mail</a>
+                </button>
+                <p>Já é um Skoober? <a href="">Faça o seu login!</a></p>
+            </section>
+
+            <div class="col-8">
+                <section class="highlight-books">
+                    <h2>Livros em destaque</h2>
+                    <div>
+                        <article class="book">
+                            <img src="./assets/img/highlight-book-1.jpg" alt="">
+                            <div>
+                                <p class="book-title">Última Parada</p>
+                                <p class="author">Casey McQuiston</p>
+                                <a class="to-buy" href="">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="book">
+                            <img src="./assets/img/highlight-book-2.jpg" alt="">
+                            <div>
+                                <p class="book-title">Reticências</p>
+                                <p class="author">Solaine Chioro</p>
+                                <a class="to-buy" href="">Comprar</a>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="row giveaway">
+            <div class="col-9 book-display">
+                <img src="./assets/img/giveaway-book-1.jpg" alt="">
+                <img src="./assets/img/giveaway-book-2.jpg" alt="">
+                <img src="./assets/img/giveaway-book-3.jpg" alt="">
+                <img src="./assets/img/giveaway-book-4.jpg" alt="">
+                <img src="./assets/img/giveaway-book-5.jpg" alt="">
+                <img src="./assets/img/giveaway-book-6.jpg" alt="">
+            </div>
+            <div class="col-3 text-display">
+                <h2>Sorteio de milhares de cortesias</h2>
+                <p>Seja um dos primeiros a ler os principais lançamentos editoriais</p>
+
+                <a href="">Participe dos sorteios</a>
+
+            </div>
+            </section>
+        </div>
+    </main>
+
     <footer>
         <section class="social-footer">
             <article class="footer-intro">

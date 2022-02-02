@@ -8,8 +8,11 @@ html {
     font-size: 62.5%;
 
     --blue: #2d6998;
+    --light-blue: #f2f7fb;
     --skoob-blue: #0B86D0;
+    --facebook-blue: #3B589C;
     --black: #000000;
     --light-black: #474747;
+    --gray: #CCCCCC;
     --white: #FFFFFF;
 }
